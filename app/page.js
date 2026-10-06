@@ -154,7 +154,7 @@ END:VCARD`;
             
             {/* Animated Rotating Conic Halo Around Logo */}
             <div className="logo-wrapper">
-              <img src="/assets/logoREMESS.png" alt="REMESS Logo" className="logo-img" />
+              <img src="/assets/REMESS.png" alt="REMESS Logo" className="logo-img" />
             </div>
             
             <h1 className="org-title">Réseau Marocain d'Économie Sociale et Solidaire</h1>
