@@ -52,12 +52,12 @@ function AnimatedCounterItem({ target, prefix = '', suffix = '', label }) {
 }
 
 export default function Home() {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
   const [toastMessage, setToastMessage] = useState('');
   const [showToast, setShowToast] = useState(false);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('remess_theme') || 'light';
+    const savedTheme = localStorage.getItem('remess_theme') || 'dark';
     setTheme(savedTheme);
     document.documentElement.setAttribute('data-theme', savedTheme);
   }, []);
